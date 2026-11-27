@@ -1,0 +1,10 @@
+Number1 = int(input("enter number 1: "))
+Number2 = int(input("enter number 2: "))
+Number3 = int(input("enter number 3: "))
+
+if Number1 > Number2 and Number1 > Number3:
+    print("number 1 is largest")
+elif Number2 > Number1 and Number2 > Number3:
+    print("number 2 is largest")
+else:
+    print("number 3 is largest")
