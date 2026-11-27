@@ -1,0 +1,19 @@
+import pandas as pd
+
+data = {
+    'Name': ['Amit', 'Riya', 'Amit', 'Neha', 'Raj'],
+    'Marks': [85, 90, 85, None, 85],
+    'City': ['Pune', 'Mumbai', 'Pune', 'Nashik', 'Pune']
+}
+
+df = pd.DataFrame(data)
+print("Original Data :")
+print(df)
+
+df = df.dropna()
+df = df.drop_duplicates()
+print("\n Cleaned Data :")
+print(df)
+
+print("\n Students scoring more than 70 :")
+print(df.loc[df['Marks'] > 70])
