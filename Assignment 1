@@ -1,0 +1,55 @@
+# Creating a list
+student_list = ["Aditi", "Shanaya", "Rishi", "Snehal", "Riya"]
+print("Students list :", student_list)
+
+student_list.append("Rohan")
+print(student_list)
+
+student_list.remove("Aditi")
+print(student_list)
+
+student_list = ["Aditi", "Shanaya", "Rishi", "Snehal", "Riya"]
+student_list.pop(1)
+print(student_list)
+
+del student_list[3]
+print(student_list)
+
+students_list[2] = "Shreya"
+print(student_list)
+
+# Tuple : my_tuple = (10, 20, 10, 30, 40)
+# count()
+print(my_tuple.count(10))
+
+# index()
+print(my_tuple.index(30))
+
+# len()
+print(len(my_tuple))
+
+# max()
+print(max(my_tuple))
+
+# min()
+print(min(my_tuple))
+
+# Dictionary : 
+student = {"name": "Rahul", "age": "18", "marks": "85"}
+
+# keys()
+print(student.keys())
+
+# values()
+print(student.values())
+
+# items()
+print(student.items())
+
+# copy()
+new_student = student.copy()
+print(new_student)
+
+# clear()
+print(student.clear())
+print(student)
